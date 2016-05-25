@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,300);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.landing {
+    background-image: repeating-linear-gradient(20deg, #09646c, #09646c 30px, #0A6C74 30px, #0A6C74 60px);
+    min-width: 700px;
+    min-height: 100vh;
+}
+
+.landing nav {
+    padding: 20px 30px;
+    height: 30px;
+}
+
+.landing nav ul {
+    list-style: none;
+}
+
+.landing nav ul li {
+    display: inline-block;
+    float: right;
+}
+.landing nav ul li.logo {
+    float: left;
+}
+.landing nav ul li.logo a {
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.landing nav ul li a {
+    display: inline-block;
+    color: #9cc5c9;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    line-height: 20px;
+    padding: 4px 0;
+    border-bottom: 3px solid transparent;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: color 100ms, border 100ms;
+}
+.landing nav ul li a:hover {
+    color: #eee;
+}
+
+.landing nav ul li a.active {
+    color: #fff;
+    border-bottom: 3px solid #7eb0a3;
+}
+
+.landing nav ul li a.btn {
+    color: #081516;
+    background: #82b6ba;
+    padding: 4px 10px;
+    margin-right: 0;
+    border-radius: 3px;
+    transition: background 100ms;
+    border: 0;
+    text-shadow: 0px 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.landing nav ul li a.btn:hover {
+    background: #c1dadc;
+}
+
+.landing .hero {
+    margin-top: 60px;
+    padding: 0 30px;
+    text-align: center;
+}
+.landing .hero img.screen {
+    margin-top: 10vh;
+    height: 45vh;
+    min-height: 400px;
+}
+.landing .hero h1 {
+    color: #fff;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.landing .hero h2 {
+    color: #9cc5c9;
+    margin-top: 20px;
+    font-weight: normal;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
